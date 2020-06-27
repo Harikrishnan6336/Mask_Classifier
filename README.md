@@ -1,71 +1,39 @@
 # 😷Mask Classifier
-A Binary Image Classification in PyTorch classifying faces as with or without wearing masks.
-## Table of Contents
-
+A Binary Image Classification in PyTorch classifying faces as with or without wearing masks. 
+This project was done as part of my PyTorch learning as part of [TinkerHub](https://tinkerhub.org/)'s [ComputerVision with PyTorch Learning Program](https://github.com/tinkerhub-org/ComputerVision-with-PyTorch-Learning-Program).  
 
 
 
 ## 📘 Description
 
-A simple binary image classification in PyTorch made using CNNs that can classify faces as with or without wearing masks. The dataset used can be found [here](https://github.com/prajnasb/observations/tree/master/experiements/data). The dataset contains a total of 816 images which includes 408 images each in both categories.
-More images are added to the training set with Image Augmentation.
+A simple binary image classification using the deep learning framework PyTorch that can classify faces as with or without wearing masks. 
 
+The dataset used can be found [here](https://github.com/prajnasb/observations/tree/master/experiements/data). The dataset contains a total of 816 images which includes 408 images each in both categories. More images are added to the training set with Image Augmentation. The number of training images(After Image Augmentation) used is 1956 and the number of test images is 164. The images are  given in the ______ folder. They are named in numerical order for the sake of convenience(____.py is used for naming the images). The name of the images along with thier labels are in _____.csv file(__.py is used for making the csv file.
 
-## 🏃‍♂️ Getting Started
-
-
-
+Two models are trained:- 
+One using the Convolutional Neural Networks and the other one is trained on the VGG16 model by applying transfer learning. The model weights of the VGG16 model is freezed and a Linear layer is added to its end and the data is trained on it. 
 
 
 
-### 👨🏻‍🏫  Prerequisites
+#### Test Accuracy  
+ obtained by the
+ 
+ CNN model  -
+ VGG16 model - 
 
-To install all the dependencies, run:
-
-``` pip install --user -r requirements.txt ```
 
 
-### 🔧 How to Install
-
-1.👯 Clone the Repository:
-```sh
-$ git clone https://github.com/Harikrishnan6336/Rock_Paper_Scissors.git 
-```
-
-2. Then move to the working directory.
-
-3. Collect images for each label (rock, paper and scissors and none):
-In this example, we gather 200 images for the "rock" gesture similarly do for paper,scissors and none
-```sh
-$ python3 collect_images.py <label_name> <num_samples> 
-```
-For example
-```sh
-$ python3 collect_images.py paper 200 
-```
-
-4. Train the model
-```sh
-$ python3 train.py 
-```
-
-5. Play the game ✨
-```sh
-$ python3 main.py
-```
 
 
 ## Built With ❤️ 
 
-* [Python3.6](https://docs.python.org/3.6/) - ⚠️️ Warning : Tensorflow is not supported on any version of python above 3.6 as of now.
-* [Tensorflow](https://www.tensorflow.org/) - The deep learning framework used
-* [OpenCV4](https://opencv.org/) - A library of programming functions mainly used for real-time computer vision
-* [SqueezeNet](https://github.com/rcmalli/keras-squeezenet) - A deep neural network for computer vision 
+* [Python3.6](https://docs.python.org/3.6/) - The Programming language used
+* [PyTorch](https://pytorch.org/) - The deep learning framework used
+* [VGG16](https://github.com/pytorch/vision/blob/master/torchvision/models/vgg.py) - A pretrained CNN which is trained on the [ImageNet](http://www.image-net.org/) dataset. 
 
 
 ## 💁🏻 Contributing
 [![Contributors][contributors-shield]][contributors-url]
-
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -78,12 +46,8 @@ Contributions are what make the open source community such an amazing place to b
 Please feel free to raise any issue...
 
 
-## License
-[![MIT License][license-shield]][license-url]
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/Harikrishnan6336/Rock_Paper_Scissors/blob/master/LICENSE
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/Harikrishnan6336/Rock_Paper_Scissors/graphs/contributors
+[contributors-url]: https://github.com/Harikrishnan6336/Mask_Classifier/graphs/contributors
