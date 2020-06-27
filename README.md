@@ -15,7 +15,7 @@ The dataset used can be found [here](https://github.com/prajnasb/observations/tr
 The dataset contains a total of 816 images which includes 408 images each in both categories. More images are added to the training set with Image Augmentation. The number of training images(After Image Augmentation) used is 1956 and the number of test images is 164. The images are  given in the ______ folder. They are named in numerical order for the sake of convenience(_.py is used for naming the images). The name of the images along with thier labels are in _____.csv file(_.py is used for making the csv file.
 
 Two models are trained:- 
-One using the Convolutional Neural Networks and the other one is trained on the VGG16 model by applying transfer learning. The model weights of the VGG16 model is freezed and a Linear layer is added to its end and the data is trained on it. 
+One using the Convolutional Neural Networks and the other one is trained on the VGG16 model by applying **transfer learning**. The model weights of the VGG16 model is freezed and a Linear layer is added to its end and the data is trained on it. 
 
 
 
@@ -24,7 +24,7 @@ One using the Convolutional Neural Networks and the other one is trained on the 
  
  CNN model  - 89.40%
  
- VGG16 model - 84.83%
+ VGG16 model - 82.34%
 
 
 
@@ -49,7 +49,7 @@ Contributions are what make the open source community such an amazing place to b
 Please feel free to raise any issue...
 
 
-
+ 
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
