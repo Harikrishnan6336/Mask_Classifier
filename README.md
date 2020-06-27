@@ -24,7 +24,7 @@ The source code with little changes can be used to tackle any binary image class
 
 
 
-#### Test Accuracy  
+#### 🎯 Test Accuracy  
  obtained by the
  
  CNN model  - 89.40%
