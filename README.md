@@ -1,5 +1,7 @@
 # 😷Mask Classifier
+
 A Binary Image Classification in PyTorch classifying faces as with or without wearing masks. 
+
 This project was done as part of my PyTorch learning as part of [TinkerHub](https://tinkerhub.org/)'s [ComputerVision with PyTorch Learning Program](https://github.com/tinkerhub-org/ComputerVision-with-PyTorch-Learning-Program).  
 
 
@@ -8,7 +10,9 @@ This project was done as part of my PyTorch learning as part of [TinkerHub](http
 
 A simple binary image classification using the deep learning framework PyTorch that can classify faces as with or without wearing masks. 
 
-The dataset used can be found [here](https://github.com/prajnasb/observations/tree/master/experiements/data). The dataset contains a total of 816 images which includes 408 images each in both categories. More images are added to the training set with Image Augmentation. The number of training images(After Image Augmentation) used is 1956 and the number of test images is 164. The images are  given in the ______ folder. They are named in numerical order for the sake of convenience(_.py is used for naming the images). The name of the images along with thier labels are in _____.csv file(_.py is used for making the csv file.
+The dataset used can be found [here](https://github.com/prajnasb/observations/tree/master/experiements/data). 
+
+The dataset contains a total of 816 images which includes 408 images each in both categories. More images are added to the training set with Image Augmentation. The number of training images(After Image Augmentation) used is 1956 and the number of test images is 164. The images are  given in the ______ folder. They are named in numerical order for the sake of convenience(_.py is used for naming the images). The name of the images along with thier labels are in _____.csv file(_.py is used for making the csv file.
 
 Two models are trained:- 
 One using the Convolutional Neural Networks and the other one is trained on the VGG16 model by applying transfer learning. The model weights of the VGG16 model is freezed and a Linear layer is added to its end and the data is trained on it. 
@@ -18,9 +22,9 @@ One using the Convolutional Neural Networks and the other one is trained on the 
 #### Test Accuracy  
  obtained by the
  
- CNN model  -
+ CNN model  - 89.40%
  
- VGG16 model - 
+ VGG16 model - 84.83%
 
 
 
