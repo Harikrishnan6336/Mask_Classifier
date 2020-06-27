@@ -17,6 +17,11 @@ The dataset contains a total of 816 images which includes 408 images each in bot
 Two models are trained:- 
 One using the Convolutional Neural Networks and the other one is trained on the VGG16 model by applying **transfer learning**. The model weights of the VGG16 model is freezed and a Linear layer is added to its end and the data is trained on it. 
 
+The entire code was run and tested in Google [colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
+
+
+The source code with little changes can be used to tackle any binary image classification.
+
 
 
 #### Test Accuracy  
