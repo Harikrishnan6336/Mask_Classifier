@@ -8,7 +8,7 @@ This project was done as part of my PyTorch learning as part of [TinkerHub](http
 
 ## 📘 Description
 
-A simple binary image classification using the deep learning framework PyTorch that can classify faces as with or without wearing masks. 
+A simple binary image classification using the deep learning framework PyTorch that can classify faces as with or without wearing masks. This classifier can prove to be helpful in times of a pandemic, similar to the COVID-19 pandemic.
 
 The dataset used can be found [here](https://github.com/prajnasb/observations/tree/master/experiements/data). 
 
