@@ -55,7 +55,7 @@ Please feel free to raise any issue...
 
 
  
-
+If you love the repo, Please show some love by starring the repo 🌟
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/Harikrishnan6336/Mask_Classifier/graphs/contributors
