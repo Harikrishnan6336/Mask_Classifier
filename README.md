@@ -20,7 +20,7 @@ One using the Convolutional Neural Networks and the other one is trained on the 
 The entire code was run and tested in Google [colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true)
 
 
-The source code with little changes can be used to tackle any binary image classification.
+This source code with slight changes can be used to tackle any binary image classification.
 
 
 
